@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-class Person:
-    # Class body goes here
+class person:
+    def talk(self):
+        print("Hello world")
 
-    #Instance method definition
-    pass
+    def walk(self):
+        print("The person is walking.")
